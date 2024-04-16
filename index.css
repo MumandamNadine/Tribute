@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header
+{
+    background-color:rgb(0, 0, 0);
+   /* height: auto;*/
+    color:white;
+    text-align: center;
+   /* font-family:'Times New Roman', Times, serif;*/
+    line-height: 2;
+
+}
+.page
+{
+    background-color:white;
+    color:rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: large;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.bio{
+    margin:50px;
+}
+
+.biogaraphy
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.awards
+{
+    display: inline-flex;
+    padding:10px;
+    line-height: 1.5;
+}
+table{
+    /*border-collapse:collapse;
+    border: 1px solid white;
+    padding:10px;
+    text-align: center;*/
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+   
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    color: white; /* Changed font color to white for better contrast */
+  }
+img{
+    border-radius: 10px;
+    max-width: 100%; 
+    
+}
+.picf
+{
+    margin:20px;
+}
+ 
+@media only screen and (max-width: 800px) {
+    /* For tablets and smaller screens */
+    .bio,
+    .biography,
+    .page,
+    .awards {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    /* For smaller devices */
+    .header {
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+  }
+  
